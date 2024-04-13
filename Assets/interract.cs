@@ -13,6 +13,11 @@ public class interract : MonoBehaviour
     public GameObject inter_object;
     public GameObject inter_demon;
 
+    private GameObject to_outline;
+
+    public int count_object_close = 0;
+
+    public List<GameObject> currentObj;
 
     // Start is called before the first frame update
     void Start()
@@ -37,13 +42,23 @@ public class interract : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Object")) // Remplacez "Player" par le tag de l'objet avec lequel vous souhaitez détecter la collision
+        if (other.CompareTag("Object")) 
         {
+            count_object_close++;
+
+            currentObj.Add(other.gameObject);
+            foreach (GameObject obj in currentObj)
+            {
+                obj.GetComponent<Outline>().enabled = false;
+            }
+            to_outline = currentObj[currentObj.Count-1];
+            to_outline.GetComponent<Outline>().enabled = true;
+
             objectRendererObject.enabled = true;
             objectRendererDemon.enabled = false;
             is_inter_ok = true;
             is_parler_ok = false;
-            inter_object = other.gameObject;
+            inter_object = currentObj[currentObj.Count-1];
         }
         if (other.CompareTag("Demon"))
         {
@@ -57,11 +72,28 @@ public class interract : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
+        currentObj.Remove(other.gameObject);
+        foreach (GameObject obj in currentObj)
+        {
+            obj.GetComponent<Outline>().enabled = false;
+        }
+        if(currentObj.Count>=1)
+        {
+            to_outline = currentObj[currentObj.Count-1];
+            to_outline.GetComponent<Outline>().enabled = true;
+            inter_object = currentObj[currentObj.Count-1];
+        }
+
         if (other.CompareTag("Object")) // Remplacez "Player" par le tag de l'objet avec lequel vous souhaitez détecter la collision
         {
-            objectRendererObject.enabled = false;
-            is_inter_ok = false;
-            inter_object = null;
+            count_object_close--;
+            other.gameObject.GetComponent<Outline>().enabled = false;
+            if (count_object_close<1)
+            {
+                objectRendererObject.enabled = false;
+                is_inter_ok = false;
+                inter_object = null;
+            }
         }
         else if (other.CompareTag("Demon"))
         {
