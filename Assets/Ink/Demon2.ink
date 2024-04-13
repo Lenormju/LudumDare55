@@ -80,7 +80,29 @@ VAR potager = true
     ** Humans kill so many innocent animals
     Yeah man, mi gwine seek vengeance fi dem
     -> cannibal
-    
+
+* How's your relationship with your father ?
+  Don't you dare talk about my daddy !
+  ** What happened to your accent ?
+     Fork you man ! My daddy is great
+     *** Why are you upset ?
+         He hasn't talked to me in 500 years
+        **** Why ?
+         One time I stole his lunch, he never forgave me
+             ***** Talk to your father
+             Do I really have to ?
+                ****** It will help you to overcome your problems.
+                 I am afraid you are right
+                #result:2: I had a meaningful talk with my family to overcome my issues. This shrink make me puke.
+                -> end_choices
+             ***** Steal his food again
+             No, I couldn't.... I shouldn't ....
+                 ****** Go for it
+                 It's true that I miss my parents cooking. Thanks doc !
+                 #result:4: I moved back with my parents and gained a hundred pounds, my dad is miserable. Would summon again !
+                 -> end_choices
+
+  
 
 
 - (end_choices)
