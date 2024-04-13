@@ -1,7 +1,7 @@
 -> intro
 
 === intro ===
-
+Bouuuh !
 * What happened ? AHHHH A MONSTER!
     Good morning :) I summoned you to hell, I am Calinou the Minotaur
     ** A minotaur ? Are you going to kill me ?
@@ -38,13 +38,13 @@ Let's go !
                         ******* I don't trust those trees. They seem kind of shady.
                             STOP TELLING JOKES !
                             ******** Here it is :)
-                                LEAVE BEFORE I KILL YOU PUNY HUMAN !!! # result:5:il a su me faire retrouver ma rage intérieure, j'ai fait un carnage
+                                LEAVE BEFORE I KILL YOU PUNY HUMAN !!! # result:demon_1:5:il a su me faire retrouver ma rage intérieure, j'ai fait un carnage
                                 -> end_choices
 
         *** (tolerance) It happens to everyone
             You are right, I should be more tolerant
             **** Yes, why get angry for so little
-                Life is much more beautiful when everyone share happiness and laughter  # result:1:I lost all hope to go back to my roots
+                Life is much more beautiful when everyone share happiness and laughter  # result:demon_1:1:I lost all hope to go back to my roots
                 -> end_choices
 
     ** Yeah, humans are pretty great
@@ -55,7 +55,7 @@ Let's go !
                 -> insult
             **** No, I meant you need some vacation
             Oh, it's true I would enjoy some sunshine, far from this dark cave. Ciao my friend !
-             # result:2:He couldn't help me get rid of my good friends. I have even more now
+             # result:demon_1:2:He couldn't help me get rid of my good friends. I have even more now
             -> end_choices
 
 * What anger you ?
@@ -72,7 +72,7 @@ Let's go !
         A farm animal ?!? You think I look like a bull ?
         ***(insult) You look more like a pig
         YOU BETTER LEAVE BEFORE I IMPALE YOU ! YOUR GUTS WILL DECORATE MY HORNS ! 
-        # result:4:I believe in myself again, I am a wild beast.
+        # result:demon_1:4:I believe in myself again, I am a wild beast.
             
         *** You are a bull !
             That's not something to say to a minotaur. How can you be so insensitive ?
@@ -83,7 +83,7 @@ Let's go !
     ** (acceptance) Without this outfit, you could like quite scary
         Really ?
         *** Yes, your face is terrifying, only your outfit is ridiculous.
-            You are right, I shoudl go back to my roots, I'll never wear this shirt again  # result:3:I was arrested for public exposure,I'm thriving in jail
+            You are right, I shoudl go back to my roots, I'll never wear this shirt again  # result:demon_1:3:I was arrested for public exposure,I'm thriving in jail
     -> end_choices
 
 - (end_choices)

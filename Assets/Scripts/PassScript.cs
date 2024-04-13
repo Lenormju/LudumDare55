@@ -13,7 +13,6 @@ public class PassScript : MonoBehaviour
     public Image happyImage;
     public void OnButtonClick()
     {
-        Debug.Log("click");
         if(Globals.ResultDemon != null){
             Goto.goto_bureau();
             return;
