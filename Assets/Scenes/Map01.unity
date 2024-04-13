@@ -312,6 +312,7 @@ MonoBehaviour:
   inter_demon: {fileID: 1125710531}
   count_object_close: 0
   currentObj: []
+  DialogInterract: {fileID: 226157702}
 --- !u!70 &107699377
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -440,6 +441,7 @@ GameObject:
   - component: {fileID: 226157703}
   - component: {fileID: 226157705}
   - component: {fileID: 226157704}
+  - component: {fileID: 226157706}
   m_Layer: 5
   m_Name: DialogInterract
   m_TagString: Untagged
@@ -487,9 +489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "C'est une armoire vide... C'est vraiment d\xE9cevant ! C'est une armoire
-    vide... C'est vraiment d\xE9cevant ! C'est une armoire vide... C'est vraiment
-    d\xE9cevant !"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -566,6 +566,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226157702}
   m_CullTransparentMesh: 1
+--- !u!114 &226157706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226157702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd2eb7c634a01a438ae2c7cdbddc76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTime: 3
 --- !u!1 &253706163
 GameObject:
   m_ObjectHideFlags: 0
