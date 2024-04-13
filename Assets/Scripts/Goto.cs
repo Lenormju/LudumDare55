@@ -5,7 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Goto : MonoBehaviour
 {
-    public void goto_map01() {
+    public Animator vortexAnimator;
+    public void startVortex1() {
+        vortexAnimator.SetTrigger("StartVortex");
+    }
+
+    public void gotoMap1() {
+        Debug.Log("gotoMap1 ");
         SceneManager.LoadScene("Map01");
     }
 
