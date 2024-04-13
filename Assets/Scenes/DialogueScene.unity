@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97ddc6c0fb3f8fb47a5e1ea2aa696816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJson: {fileID: 4900000, guid: 26d50b32f10f89045966821d315044c7, type: 3}
+  inkJson: {fileID: 4900000, guid: 7430e6c6431c68d418145bcba6b0343a, type: 3}
   choice: 1
   person: lou
   displayText: {fileID: 982796275}
