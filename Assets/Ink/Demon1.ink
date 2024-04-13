@@ -6,12 +6,12 @@
     bonjour :)
     ** aaah ... Comment ça bonjour ?
         bah ... bonjour :)
-        *** vous êtes un minautore qui dit bonjour ?
+        *** vous êtes un minotaure qui dit bonjour ?
             oui, je suis très content de vous voir.
             **** ah, c'est cool.
                 non justement !
                 ***** comment ça ?
-                    je suis un minautore sanguinaire et cruel, je ne devrais pas être content de discuter paisiblement avec vous ! Vous voulez un peu de thé ?
+                    je suis un minotaure sanguinaire et cruel, je ne devrais pas être content de discuter paisiblement avec vous ! Vous voulez un peu de thé ?
                     ****** Ah je vois, c'est pour ça que vous m'appellez ?
                         oui, je veux retrouver ma rage.
                         -> choices
