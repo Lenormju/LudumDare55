@@ -5,6 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Goto : MonoBehaviour
 {
+    bool diplomaOnce = false;
+     public void interactWithDiploma() {
+        if (!diplomaOnce)
+        {
+            diplomaOnce = true;
+            vortexAnimator.SetTrigger("StartVortex");
+        }
+    }
+
     public Animator vortexAnimator;
     public void startVortex1() {
         vortexAnimator.SetTrigger("StartVortex");
@@ -25,8 +34,8 @@ public class Goto : MonoBehaviour
     }
 
     public void closeMOT() {
-        Debug.Log("MOT closed");
         MOTApp.SetActive(false);
+        vortexAnimator.SetTrigger("StartVortex");
     }
 
     public GameObject Demon1DialogueOverlay;
