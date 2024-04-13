@@ -19,6 +19,7 @@ public class interract : MonoBehaviour
 
     public List<GameObject> currentObj;
 
+    public GameObject DialogInterract;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +34,7 @@ public class interract : MonoBehaviour
          {
             string message = inter_object.GetComponent<InterractEffect>().get_message();
             Debug.Log(message);
+            DialogInterract.GetComponent<SetDialog>().SetDialogMessage(message);
          }
          else if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) ) && is_parler_ok)
          {
