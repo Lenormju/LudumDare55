@@ -20,6 +20,11 @@ public class Goto : MonoBehaviour
         MOTApp.SetActive(true);
     }
 
+    public void closeMOT() {
+        Debug.Log("MOT closed");
+        MOTApp.SetActive(false);
+    }
+
     public GameObject Demon1DialogueOverlay;
     public void DialogueWithDemon1() {
         Demon1DialogueOverlay.SetActive(true);
