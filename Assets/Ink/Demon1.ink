@@ -38,19 +38,19 @@
                         ******* I don't trust those trees. They seem kind of shady.
                             STOP TELLING JOKES !
                             ******** eh voilà :)
-                                leave before I kill you  # result:5:il a su me faire retrouver ma rage intérieure, j'ai fait un carnage
+                                leave before I kill you  # result:demon_1:5:il a su me faire retrouver ma rage intérieure, j'ai fait un carnage
                                 -> end_choices
 
         *** (tolerance) ça arrive à tout le monde ...
             vous avez raison, il faut être tolérant.
             **** oui, sinon on risque de se fâcher, et ça serait dommage ...
-                la vie est tellement plus belle lorsque tout le monde vit en harmonie !  # result:1:j'ai perdu tout espoir de renouer des relations habituelles avec des personnes
+                la vie est tellement plus belle lorsque tout le monde vit en harmonie !  # result:demon_1:1:j'ai perdu tout espoir de renouer des relations habituelles avec des personnes
                 -> end_choices
 
     ** vous avez raison, ils semblent plutôt cools
         oui, j'ai appris à jouer au frisbee grâce à eux, quel sport incroyable
         *** l'été dernier je suis allé à la plage et j'ai regardé des gens jouer au frisbee, c'était agréable
-            oh, ça me donne envie de partir en vacances au soleil, loin de ce sombre labyrinthe. Bonne journée !  # result:2:il n'a pas su m'aider à me séparer de mes mauvaises fréquentations
+            oh, ça me donne envie de partir en vacances au soleil, loin de ce sombre labyrinthe. Bonne journée !  # result:demon_1:2:il n'a pas su m'aider à me séparer de mes mauvaises fréquentations
             -> end_choices
 
 * qu'est-ce qui vous enrage ?
@@ -62,13 +62,13 @@
     ** vous avez un piercing au nez comme une vachette
         vous trouvez vraiment que je ressemble à une vachette ?
         *** oui
-            PARTEZ AVANT QUE JE VOUS EN-CORNE ! VOUS VERREZ SI JE SUIS UNE VACHETTE !  # result:4:j'ai retrouvé confiance en moi, je suis un animal sauvage
+            PARTEZ AVANT QUE JE VOUS EN-CORNE ! VOUS VERREZ SI JE SUIS UNE VACHETTE !  # result:demon_1:4:j'ai retrouvé confiance en moi, je suis un animal sauvage
             
         *** non
             ce sont les préjugés qui vous donnent cette impression
             -> tolerance
     ** vous semblez avoir des problèmes vraiment futiles
-        oui, vous avez raison, il faut que je tire un trait sur ce besoin de faire du mal aux autres  # result:2:je n'ai pas réussi à me détacher de mes bas instincts
+        oui, vous avez raison, il faut que je tire un trait sur ce besoin de faire du mal aux autres  # result:demon_1:2:je n'ai pas réussi à me détacher de mes bas instincts
     -> end_choices
 
 - (end_choices)
