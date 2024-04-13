@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class interract : MonoBehaviour
@@ -42,7 +43,7 @@ public class interract : MonoBehaviour
             scriptGoto.DialogueWithDemon1();
          }
     }
-
+    public Button displayText;
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Object")) 
@@ -70,6 +71,11 @@ public class interract : MonoBehaviour
             is_inter_ok = false;
             is_parler_ok = true;
             inter_demon = other.gameObject;
+            // if(Globals.InkStory != null){
+            //     Globals.InkStory.state.LoadJson(Globals.SavedState);
+            // }
+            
+            displayText.onClick.Invoke();
         }
     }
 

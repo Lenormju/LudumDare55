@@ -20,7 +20,7 @@
 === choices ===
 
 - (start_choices)
-
+Let's go !
 * comment l'avez-vous perdu ?
     je me suis rendu compte que les humains qu'on jetait dans mon dédale étaient sympas
     

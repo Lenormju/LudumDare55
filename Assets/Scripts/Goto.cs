@@ -19,6 +19,10 @@ public class Goto : MonoBehaviour
         Debug.Log("gotoMap1 ");
         SceneManager.LoadScene("Map01");
     }
+    
+    public static void goto_bureau() {
+        SceneManager.LoadScene("MainScene");
+    }
 
     public GameObject MOTApp;
     public void openMOT() {
