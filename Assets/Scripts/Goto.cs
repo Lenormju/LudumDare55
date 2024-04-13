@@ -5,11 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Goto : MonoBehaviour
 {
-
-    public void interactWithDiploma() {
-        Debug.Log("TODO: activate the vortex");
-    }
-
     public Animator vortexAnimator;
     public void startVortex1() {
         vortexAnimator.SetTrigger("StartVortex");
