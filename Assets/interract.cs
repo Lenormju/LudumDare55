@@ -28,6 +28,7 @@ public class interract : MonoBehaviour
     }
 
     // Update is called once per frame
+    public Goto scriptGoto;
     void Update()
     {
          if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) ) && is_inter_ok)
@@ -38,7 +39,7 @@ public class interract : MonoBehaviour
          }
          else if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) ) && is_parler_ok)
          {
-            Debug.Log("AGROUGROU JE SUIS UN DEMON MECHANT ");
+            scriptGoto.DialogueWithDemon1();
          }
     }
 
