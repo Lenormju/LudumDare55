@@ -114,7 +114,7 @@ Thank you !
                 You are right, I should be more tolerant
                 ***** Yes, why get angry for so little
                     Life is much more beautiful when everyone share happiness and laughter  # result:demon_1:1:I lost all hope to go back to my roots
-                    *****  [{run_away}]
+                    ******  [{run_away}]
                     -> DONE
         *** Your horns are bigger
             It's true, my mighty horns make me superior
