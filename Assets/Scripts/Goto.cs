@@ -5,17 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class Goto : MonoBehaviour
 {
+    public GameObject MOTAppButton;
+    public void Start() {
+        if ((MOTAppButton != null) && diplomaOnce)
+        {
+            MOTAppButton.SetActive(true);
+        }
+    }
 
     public AudioSource ouchSound;
     public void touchCactus() {
         ouchSound.Play();
     }
 
+    public AudioSource miaouSound;
+    public void touchCat() {
+        miaouSound.Play();
+    }
+
     public void gotoMainScene() {
         SceneManager.LoadScene("MainScene");
     }
 
-    bool diplomaOnce = false;
+    static bool diplomaOnce = false;
      public void interactWithDiploma() {
         if (!diplomaOnce)
         {
