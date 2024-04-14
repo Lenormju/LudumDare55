@@ -74,6 +74,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: 
+  ink_story: {fileID: 0}
+  variable_name: 
+  has_a_purpose: 0
 --- !u!114 &3561931283117187075
 MonoBehaviour:
   m_ObjectHideFlags: 0

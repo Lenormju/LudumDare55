@@ -1,9 +1,7 @@
 VAR name_1 = "Dominos Jr"
 VAR run_away = "Leave"
 
-
 -> intro
-
 
 === intro ===
 Bouuuh !

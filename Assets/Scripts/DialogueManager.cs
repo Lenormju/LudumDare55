@@ -15,6 +15,7 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("ok");
         Globals.InkStory = new Story(inkJson.text);
         Globals.InkStory.ChoosePathString("intro");
         displayText.onClick.Invoke();
@@ -24,5 +25,10 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    }
+
+    public void setVariable(string nom)
+    {  
+        Globals.InkStory.variablesState[nom] = true;
     }
 }

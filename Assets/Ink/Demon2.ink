@@ -1,19 +1,17 @@
--> intro
-
 VAR name_2 = "Phydidre"
-VAR seasheperd_flag = true
-VAR weed = true
-VAR potager = true
+VAR seasheperd_flag = false
+VAR weed = false
+VAR potager = false
 VAR run_away = "Leave"
 
-
+-> intro
 
 === intro ===
 Bouuuh !
 * Again ? Are you the one who summoned me ?
     Greetings, bredda, ease up yuhself. Yuh can assist I wit mi troubles?
     ** Who are you ?
-        Mi name be {name_2} di cyclop
+        Mi name be {name_2} di cyclop {weed} {potager} {seasheperd_flag}
         *** Nice to meet you {name_2}, how can I help you ?
             Mi lose mi appetite, mi hardly nyam no more,  mi can't even manage to finish a likkle plate.
             **** What do you eat?
