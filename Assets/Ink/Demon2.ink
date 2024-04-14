@@ -45,13 +45,13 @@ VAR potager = true
                         Mi nyam a French engineer one time, it taste sweet
                             ******** RUN AWAY
                             No run weh, mi belly a grumble now.
-                            !!! # result:5:Mi always hanker afta food. Him look nyam-able 
+                            !!! # result:demon_2:5:Mi always hanker afta food. Him look nyam-able 
                                     -> end_choices
 
         *** (diet) Eating less protein is a great way to lose weight
             Yuh waan follow mi diet ?
             **** Yes, I think you could make a fortume with it
-                # result:1:Mi get thin an' rich, but mi still feel miserable
+                # result:demon_2:1:Mi get thin an' rich, but mi still feel miserable
                 -> end_choices
 
     ** {weed} And weed and booze are good for your body ?
@@ -66,7 +66,7 @@ VAR potager = true
             Nah, not really, but mi can cook yuh someting
                 **** I would kill for some chicken
                 Now dat yuh mention it, it sound like a good idea.
-                # result:3:Him get mi high fi solve mi problems, pretty solid
+                # result:demon_2:3:Him get mi high fi solve mi problems, pretty solid
                 -> end_choices
 
 * {seasheperd_flag} I get you sister, meat is murder !
@@ -90,13 +90,13 @@ VAR potager = true
              Do I really have to ?
                 ****** It will help you to overcome your problems.
                  I am afraid you are right
-                #result:2: I had a meaningful talk with my family to overcome my issues. This shrink make me puke.
+                #result:demon_2:2: I had a meaningful talk with my family to overcome my issues. This shrink make me puke.
                 -> end_choices
              ***** Steal his food again
              No, I couldn't.... I shouldn't ....
                  ****** Go for it
                  It's true that I miss my parents cooking. Thanks doc !
-                 #result:4: I moved back with my parents and gained a hundred pounds, my dad is miserable. Would summon again !
+                 #result:demon_2:4: I moved back with my parents and gained a hundred pounds, my dad is miserable. Would summon again !
                  -> end_choices
 
 - (end_choices)

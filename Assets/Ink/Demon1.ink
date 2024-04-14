@@ -42,7 +42,7 @@ Let's go !
                         ******* I don't trust those trees. They seem kind of shady.
                             STOP TELLING JOKES !
                             ******** Here it is :)
-                                LEAVE BEFORE I KILL YOU PUNY HUMAN !!! # result:demon_1:5:il a su me faire retrouver ma rage intérieure, j'ai fait un carnage
+                                LEAVE BEFORE I KILL YOU PUNY HUMAN !!! # result:demon_1:5:I MAKE BLOOD RAIN EVERYDAY ! Great Therapy !
                                 -> end_choices
 
         *** (tolerance) It happens to everyone
