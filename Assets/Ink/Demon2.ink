@@ -11,11 +11,11 @@ Bouuuh !
 * Again ? Are you the one who summoned me ?
     Greetings, bredda, ease up yuhself. Yuh can assist I wit mi troubles?
     ** Who are you ?
-        Mi name be {name_2} di cyclop {weed} {potager} {seasheperd_flag}
+        Mi name be {name_2} di cyclop
         *** Nice to meet you {name_2}, how can I help you ?
             Mi lose mi appetite, mi hardly nyam no more,  mi can't even manage to finish a likkle plate.
             **** What do you eat?
-                Mostly salad an' seeds, mi a proud vegan. 
+                Mostly salad an' seeds, mi a proud vegan. Mi naah nyam meat fi centuries.
                 -> rasta_cyclop
  -> DONE
 
@@ -24,8 +24,7 @@ Bouuuh !
 === rasta_cyclop ===
 
 - (start_choices)
-Mi naah nyam meat fi centuries.
-* Why ? Are you not supposed to eat meat ?
+* {potager} Why ? Are you not supposed to eat meat ?
   It is better fi mi body.
   
     ** {potager} Your vegetables don't look great
@@ -43,16 +42,14 @@ Mi naah nyam meat fi centuries.
                         ******* ...
                         Mi nyam a French engineer one time, it taste sweet
                             ******** I think I should go
-                            No run weh, mi belly a grumble now.
-                            !!! # result:demon_2:5:Mi always hanker afta food. Him look nyam-able
+                            No run weh, mi belly a grumble now. # result:demon_2:5:Mi always hanker afta food. Him look nyam-able
                             ~ run_away = "RUN AWAY"
                                    ********* [{run_away}]
                                     -> DONE
 
         *** Eating less protein is a great way to lose weight
             Yuh waan follow mi diet ?
-            **** Yes, I think you could make a fortune with it
-                # result:demon_2:1:Mi get thin an' rich, but mi still feel miserable
+            **** Yes, I think you could make a fortune with it # result:demon_2:1:Mi get thin an' rich, but mi still feel miserable
                ***** [{run_away}]
                     -> DONE
 
@@ -75,8 +72,7 @@ Mi naah nyam meat fi centuries.
     Yeah man, yuh right
         *** (diet) Eating less protein is a great way to lose weight
                 Yuh waan follow mi diet ?
-                **** Yes, I think you could make a fortume with it
-                    # result:demon_2:1:Mi get thin an' rich, but mi still feel miserable
+                **** Yes, I think you could make a fortume with it # result:demon_2:1:Mi get thin an' rich, but mi still feel miserable
                    ***** [{run_away}]
                         -> DONE
     ** Humans kill so many innocent animals
@@ -86,8 +82,7 @@ Mi naah nyam meat fi centuries.
                 **** ...
                 Mi nyam a French engineer one time, it taste sweet
                     ***** I think I should go
-                    No run weh, mi belly a grumble now.
-                    !!! # result:demon_2:5:Mi always hanker afta food. Him look nyam-able 
+                    No run weh, mi belly a grumble now.  # result:demon_2:5:Mi always hanker afta food. Him look nyam-able 
                     ~ run_away = "RUN AWAY"
                         ****** [{run_away}]
                             -> DONE
@@ -103,16 +98,14 @@ Mi naah nyam meat fi centuries.
              ***** Talk to your father
              Do I really have to ?
                 ****** It will help you to overcome your problems.
-                 I am afraid you are right
-                #result:demon_2:2: I had a meaningful talk with my family to overcome my issues. This shrink make me puke.
+                 I am afraid you are right #result:demon_2:2: I had a meaningful talk with my family to overcome my issues. This shrink make me puke.
                     ******* [{run_away}]
                         -> DONE
              ***** Steal his food again
              No, I couldn't.... I shouldn't ....
                  ****** Go for it
-                 It's true that I miss my parents cooking. Thanks doc !
-                 #result:demon_2:4: I moved back with my parents and gained a hundred pounds, my dad is miserable. Would summon again !
+                 It's true that I miss my parents cooking. Thanks doc ! #result:demon_2:4: I moved back with my parents and gained a hundred pounds, my dad is miserable. Would summon again !
                      ******* [{run_away}]
                         -> DONE
 
-
+-> END

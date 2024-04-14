@@ -15,7 +15,6 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Create Dialogue");
         Globals.IsCurrentStoryEnding = false;
         Globals.InkStory = new Story(inkJson.text);
         Globals.InkStory.ChoosePathString("intro");
