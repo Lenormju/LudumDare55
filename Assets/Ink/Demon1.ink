@@ -1,9 +1,12 @@
 -> intro
 
+VAR name_1 = "Gladiator Jr"
+
+
 === intro ===
 Bouuuh !
 * What happened ? AHHHH A MONSTER!
-    Good morning :) I summoned you to hell, I am Calinou the Minotaur
+    Good morning :) I summoned you to hell, I am {name_1} the Minotaur
     ** A minotaur ? Are you going to kill me ?
         No, I'm a pacifist, I wouldn't harm a fly.
         *** This is great !

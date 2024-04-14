@@ -8,7 +8,7 @@ VAR potager = true
 
 
 === intro ===
-
+Bouuuh !
 * Again ? Are you the one who summoned me ?
     Greetings, bredda, ease up yuhself. Yuh can assist I wit mi troubles?
     ** Who are you ?
@@ -16,7 +16,7 @@ VAR potager = true
         *** Nice to meet you {name_2}, how can I help you ?
             Mi lose mi appetite, mi hardly nyam no more,  mi can't even manage to finish a likkle plate.
             **** What do you eat?
-                Mostly salad an' seeds, mi a proud vegan, mi naah nyam meat fi centuries.
+                Mostly salad an' seeds, mi a proud vegan. 
                 -> rasta_cyclop
  -> DONE
 
@@ -25,7 +25,7 @@ VAR potager = true
 === rasta_cyclop ===
 
 - (start_choices)
-
+Mi naah nyam meat fi centuries.
 * Why ? Are you not supposed to eat meat ?
   It is better fi mi body.
   
