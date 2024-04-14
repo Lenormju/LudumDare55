@@ -35,13 +35,13 @@ public class interract : MonoBehaviour
          if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) || Input.GetMouseButton(0) ) && is_inter_ok)
          {
             string message = inter_object.GetComponent<InterractEffect>().get_message();
-            Debug.Log(message);
             DialogInterract.GetComponent<SetDialog>().SetDialogMessage(message);
             objectRendererObject.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
          }
          else if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) ) && is_parler_ok)
          {
             mouvement.vitesse = 0;
+            is_inter_ok = false;
             scriptGoto.DialogueWithDemon1();
          }
     }
@@ -70,7 +70,7 @@ public class interract : MonoBehaviour
             {
                 objectRendererObject.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
             }
-            else
+            else if (is_inter_ok)
             {
                 objectRendererObject.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
             }
@@ -92,11 +92,13 @@ public class interract : MonoBehaviour
 
     public void ActivateInterract(){        
         mouvement.vitesse = 4;
+        is_inter_ok = true;
         scriptGoto.StopDialogueWithDemon1();
     }
 
     public void DeactivateInterract(){        
         mouvement.vitesse = 0;
+        is_inter_ok = false;
         scriptGoto.DialogueWithDemon1();
     }
 
