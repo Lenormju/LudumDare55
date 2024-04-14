@@ -1,6 +1,8 @@
--> intro
+VAR name_1 = "Dominos Jr"
+VAR run_away = "Leave"
 
-VAR name_1 = "Gladiator Jr"
+
+-> intro
 
 
 === intro ===
@@ -24,7 +26,6 @@ Bouuuh !
  -> DONE
 
 === choices ===
-
 - (start_choices)
 Thank you !
 * How long have you felt at peace ?
@@ -43,14 +44,17 @@ Thank you !
                         ******* I don't trust those trees. They seem kind of shady.
                             STOP TELLING JOKES !
                             ******** Here it is :)
+                                ~ run_away = "RUN AWAY"
                                 LEAVE BEFORE I KILL YOU PUNY HUMAN !!! # result:demon_1:5:I MAKE BLOOD RAIN EVERYDAY ! Great Therapy !
-                                -> end_choices
+                                *********  [{run_away}]
+                                     -> DONE
 
         *** It happens to everyone
             You are right, I should be more tolerant
             **** Yes, why get angry for so little
                 Life is much more beautiful when everyone share happiness and laughter  # result:demon_1:1:I lost all hope to go back to my roots
-                -> end_choices
+                *****  [{run_away}]
+                    -> DONE
 
     ** Yeah, humans are pretty great
         Yes, they taught me how to play frisbee, I loved it, it's amazing
@@ -59,12 +63,17 @@ Thank you !
             **** Not really ...
                 Ahh ...
                 ***** You look more like a pig
+                     ~ run_away = "RUN AWAY"
+                     
                     YOU BETTER LEAVE BEFORE I IMPALE YOU ! YOUR GUTS WILL DECORATE MY HORNS !
                     # result:demon_1:4:I believe in myself again, I am a wild beast.
+                    ******  [{run_away}]
+                    -> DONE
             **** No, I meant you need some vacation
             Oh, it's true I would enjoy some sunshine, far from this dark cave. Ciao my friend !
              # result:demon_1:2:He couldn't help me get rid of my good friends. I have even more now
-            -> end_choices
+                *****  [{run_away}]
+                    -> DONE
 
 * What anger you ?
     Nothing
@@ -83,16 +92,21 @@ Thank you !
                             ******** I don't trust those trees. They seem kind of shady.
                                 STOP TELLING JOKES !
                                 ********* Here it is :)
+                                     ~ run_away = "RUN AWAY"
                                     LEAVE BEFORE I KILL YOU PUNY HUMAN !!! # result:demon_1:5:I MAKE BLOOD RAIN EVERYDAY ! Great Therapy !
-                                    -> end_choices
+                                        **********  [{run_away}]
+                                        -> DONE
 
 * You look a little bit dumb
     How could you say something like that ?
     ** You are a farm animal in a hawaian shirt
         A farm animal ?!? You think I look like a bull ?
         *** You look more like a pig
+         ~ run_away = "RUN AWAY"
         YOU BETTER LEAVE BEFORE I IMPALE YOU ! YOUR GUTS WILL DECORATE MY HORNS !
         # result:demon_1:4:I believe in myself again, I am a wild beast.
+            ****  [{run_away}]
+                        -> DONE
             
         *** You are a bull !
             That's not something to say to a minotaur. How can you be so insensitive ?
@@ -100,19 +114,21 @@ Thank you !
                 You are right, I should be more tolerant
                 ***** Yes, why get angry for so little
                     Life is much more beautiful when everyone share happiness and laughter  # result:demon_1:1:I lost all hope to go back to my roots
-                    -> end_choices
+                    *****  [{run_away}]
+                    -> DONE
         *** Your horns are bigger
             It's true, my mighty horns make me superior
             **** Without this outfit, you could like quite scary
                 Really ?
                 ***** Yes, your face is terrifying, only your outfit is ridiculous.
                     You are right, I should go back to my roots, I'll never wear this shirt again  # result:demon_1:3:I was arrested for public exposure,I'm thriving in jail
+                    ******  [{run_away}]
+                    -> DONE
     ** Without this outfit, you could like quite scary
         Really ?
         *** Yes, your face is terrifying, only your outfit is ridiculous.
             You are right, I should go back to my roots, I'll never wear this shirt again  # result:demon_1:3:I was arrested for public exposure,I'm thriving in jail
-    -> end_choices
+            **** [{run_away}]
+                    -> DONE
 
-- (end_choices)
-* Leave
--> DONE
+
