@@ -60,17 +60,14 @@ VAR potager = true
         Yeah, it nuh haffi
             **** What ?
             Yuh right, sense nuh matter
-            *****
         *** Amen to that ! Let's party !
         Ya go, mi friend
             **** I'm getting hungry, you too ?
             Nah, not really, but mi can cook yuh someting
                 **** I would kill for some chicken
                 Now dat yuh mention it, it sound like a good idea.
-                # result:3:He couldn't help me get rid of my good friends. I have even more now
-                **** Nah, I don't eat seeds
-             # result:2:He couldn't help me get rid of my good friends. I have even more now
-            -> end_choices
+                # result:3:Him get mi high fi solve mi problems, pretty solid
+                -> end_choices
 
 * {seasheperd_flag} I get you sister, meat is murder !
     Yuh overstand, bredren !
@@ -101,9 +98,6 @@ VAR potager = true
                  It's true that I miss my parents cooking. Thanks doc !
                  #result:4: I moved back with my parents and gained a hundred pounds, my dad is miserable. Would summon again !
                  -> end_choices
-
-  
-
 
 - (end_choices)
 -> DONE
