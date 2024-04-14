@@ -11,6 +11,11 @@ public class Goto : MonoBehaviour
         ouchSound.Play();
     }
 
+    public AudioSource miaouSound;
+    public void touchCat() {
+        miaouSound.Play();
+    }
+
     public void gotoMainScene() {
         SceneManager.LoadScene("MainScene");
     }
