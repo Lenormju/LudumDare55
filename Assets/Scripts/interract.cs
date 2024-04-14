@@ -32,7 +32,7 @@ public class interract : MonoBehaviour
     public Goto scriptGoto;
     void Update()
     {
-         if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) ) && is_inter_ok)
+         if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) || Input.GetMouseButton(0) ) && is_inter_ok)
          {
             string message = inter_object.GetComponent<InterractEffect>().get_message();
             Debug.Log(message);
