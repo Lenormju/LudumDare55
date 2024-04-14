@@ -41,19 +41,31 @@ public class Goto : MonoBehaviour
     }
 
     public Animator vortexAnimator;
-    public Animator vortex2Animator;
     public void startVortex1() {
         vortexAnimator.SetTrigger("StartVortex");
     }
 
-    public void gotoMap1() {
-        Debug.Log("gotoMap1");
-        SceneManager.LoadScene("Map01");
+    static public int mapToGo = 1;
+    public void gotoMap() {
+        if (mapToGo == 1) {
+            Debug.Log("gotoMap1");
+            SceneManager.LoadScene("Map01");
+            mapToGo = 2;
+        } else if (mapToGo == 2) {
+            Debug.Log("gotoMap2");
+            SceneManager.LoadScene("Map02");
+            mapToGo = 3;
+        } else if (mapToGo == 3) {
+            Debug.Log("gotoMap3");
+            SceneManager.LoadScene("Map03");
+            mapToGo = 4;
+        } else if (mapToGo == 4) {
+            Debug.Log("gotoCredits");
+            gotoCredits();
+        }
+        
     }
-    public void gotoMap2() {
-        Debug.Log("gotoMap2");
-        SceneManager.LoadScene("Map02");
-    }
+
     public void gotoBureau() {
         Debug.Log("gotoBureau");
         SceneManager.LoadScene("MainScene");
@@ -70,7 +82,7 @@ public class Goto : MonoBehaviour
 
     public void closeMOT() {
         MOTApp.SetActive(false);
-        vortex2Animator.SetTrigger("StartVortex");
+        vortexAnimator.SetTrigger("StartVortex");
     }
 
     public GameObject Demon1DialogueOverlay;

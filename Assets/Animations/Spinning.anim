@@ -692,7 +692,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 2
-    functionName: gotoMap1
+    functionName: gotoMap
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: a030cbc1e47538943baa9d02d58ff3bf, type: 3}
     floatParameter: 0
