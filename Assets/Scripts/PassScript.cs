@@ -11,7 +11,6 @@ public class PassScript : MonoBehaviour
     public List<Button> choices;
     public Sprite angrySprite;
     public Image happyImage;
-    public Goto scriptGoTo;
     public void OnButtonClick()
     {
         if(Globals.InkStory.canContinue){
