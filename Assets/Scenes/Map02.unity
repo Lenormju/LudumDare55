@@ -1229,7 +1229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: message
-      value: A potted pland
+      value: A potted plant
       objectReference: {fileID: 0}
     - target: {fileID: 8546087012110214572, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1803,7 +1803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: message
-      value: This door leeds to the garden
+      value: This door lead to the garden
       objectReference: {fileID: 0}
     - target: {fileID: 8546087012110214572, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1907,7 +1907,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a030cbc1e47538943baa9d02d58ff3bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MOTAppButton: {fileID: 0}
   ouchSound: {fileID: 0}
+  miaouSound: {fileID: 0}
   vortexAnimator: {fileID: 2096097948}
   vortex2Animator: {fileID: 0}
   MOTApp: {fileID: 0}
@@ -2308,7 +2310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: message
-      value: A table. It smeel wierd, i should look around
+      value: A table. It smells weird, I should look around
       objectReference: {fileID: 0}
     - target: {fileID: 8546087012110214572, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2437,7 +2439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: message
-      value: A sea sheperd flag, they assault fishing ships
+      value: A sea shepherd flag, they assault fishing ships
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: ink_story
@@ -2749,7 +2751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: message
-      value: A closed door. I should'nt try to open it
+      value: A closed door. I shouldn't try to open it it
       objectReference: {fileID: 0}
     - target: {fileID: 8546087012110214572, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3479,7 +3481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: message
-      value: A box... Is this a weed bag ??
+      value: Is this a weed bag??
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: ink_story
@@ -4321,7 +4323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: message
-      value: A invocation circle. I was summoned here.
+      value: An invocation circle. I was summoned here.
       objectReference: {fileID: 0}
     - target: {fileID: 8546087012110214572, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4634,7 +4636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: message
-      value: 'A desolate garden, the vegetables look terrible '
+      value: A desolated garden, the vegetables look terrible
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: ink_story
@@ -5556,7 +5558,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a030cbc1e47538943baa9d02d58ff3bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MOTAppButton: {fileID: 0}
   ouchSound: {fileID: 0}
+  miaouSound: {fileID: 0}
   vortexAnimator: {fileID: 2096097948}
   vortex2Animator: {fileID: 0}
   MOTApp: {fileID: 0}
