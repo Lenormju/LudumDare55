@@ -11,13 +11,9 @@ public class PassScript : MonoBehaviour
     public List<Button> choices;
     public Sprite angrySprite;
     public Image happyImage;
+    public Goto scriptGoTo;
     public void OnButtonClick()
     {
-        if(Globals.ResultDemon != null){
-            Goto.goto_bureau();
-            return;
-        }
-
         if(Globals.InkStory.canContinue){
             this.GetComponent<Button>().GetComponentInChildren<TMP_Text>().text = Globals.InkStory.Continue();
 
