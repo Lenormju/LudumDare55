@@ -15,7 +15,7 @@ public class Goto : MonoBehaviour
         SceneManager.LoadScene("MainScene");
     }
 
-    bool diplomaOnce = false;
+    static bool diplomaOnce = false;
      public void interactWithDiploma() {
         if (!diplomaOnce)
         {
