@@ -53,26 +53,22 @@ Mi naah nyam meat fi centuries.
 
         *** Eating less protein is a great way to lose weight
             Yuh waan follow mi diet ?
-            **** Yes, I think you could make a fortume with it
+            **** Yes, I think you could make a fortune with it
                 # result:demon_2:1:Mi get thin an' rich, but mi still feel miserable
                ***** [{run_away}]
                     -> DONE
 
     ** {weed} And weed and booze are good for your body ?
         Dem deh. Dem mek mi happy.
-        *** It doesn't make any sense !
-        Yeah, it nuh haffi
-            **** What ?
-            Yuh right, sense nuh matter
         *** Amen to that ! Let's party !
         Ya go, mi friend
             **** I'm getting hungry, you too ?
             Nah, not really, but mi can cook yuh someting
-                **** I would kill for some chicken
+                ***** I would kill for some chicken
                 Now dat yuh mention it, it sound like a good idea.
-                # result:demon_2:3:Him get mi high fi solve mi problems, pretty solid
-                ***** [{run_away}]
-                    -> DONE
+                    # result:demon_2:3:Him get mi high fi solve mi problems, pretty solid
+                    ****** [{run_away}]
+                        -> DONE
 
 * {seasheperd_flag} I get you sister, meat is murder !
     Yuh overstand, bredren !
