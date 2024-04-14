@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Goto : MonoBehaviour
 {
+
+    public AudioSource ouchSound;
+    public void touchCactus() {
+        ouchSound.Play();
+    }
+
     bool diplomaOnce = false;
      public void interactWithDiploma() {
         if (!diplomaOnce)
@@ -14,7 +20,6 @@ public class Goto : MonoBehaviour
         }
     }
 
-    public Animator vortexAnimator;
     public void startVortex1() {
         vortexAnimator.SetTrigger("StartVortex");
     }
@@ -23,9 +28,14 @@ public class Goto : MonoBehaviour
         Debug.Log("gotoMap1 ");
         SceneManager.LoadScene("Map01");
     }
-    
-    public static void goto_bureau() {
+    public void gotoBureau() {
+        Debug.Log("gotoBureau");
         SceneManager.LoadScene("MainScene");
+    }
+    
+    public Animator vortexAnimator;
+    public void startDevortexisation() {
+        vortexAnimator.SetTrigger("StartVortex");
     }
 
     public GameObject MOTApp;
