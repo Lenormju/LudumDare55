@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class Globals : MonoBehaviour
 {
     public static Story InkStory { get; set; }
-    public static string SavedState {get;set;}
     public static Result ResultDemon { get; set; } = null;
 
     public class Result{

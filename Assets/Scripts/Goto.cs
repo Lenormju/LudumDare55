@@ -42,5 +42,8 @@ public class Goto : MonoBehaviour
     public void DialogueWithDemon1() {
         Demon1DialogueOverlay.SetActive(true);
     }
+    public void StopDialogueWithDemon1() {
+        Demon1DialogueOverlay.SetActive(false);
+    }
 
 }

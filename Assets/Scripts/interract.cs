@@ -19,8 +19,9 @@ public class interract : MonoBehaviour
     public int count_object_close = 0;
 
     public List<GameObject> currentObj;
-
+    public GameObject CanvaDemonDialogue;
     public GameObject DialogInterract;
+    public mvt mouvement;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +33,7 @@ public class interract : MonoBehaviour
     public Goto scriptGoto;
     void Update()
     {
-         if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) ) && is_inter_ok)
+         if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) || Input.GetMouseButton(0) ) && is_inter_ok)
          {
             string message = inter_object.GetComponent<InterractEffect>().get_message();
             Debug.Log(message);
@@ -40,6 +41,7 @@ public class interract : MonoBehaviour
          }
          else if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) ) && is_parler_ok)
          {
+            mouvement.vitesse = 0;
             scriptGoto.DialogueWithDemon1();
          }
     }
@@ -71,12 +73,19 @@ public class interract : MonoBehaviour
             is_inter_ok = false;
             is_parler_ok = true;
             inter_demon = other.gameObject;
-            // if(Globals.InkStory != null){
-            //     Globals.InkStory.state.LoadJson(Globals.SavedState);
-            // }
             
             displayText.onClick.Invoke();
         }
+    }
+
+    public void ActivateInterract(){        
+        mouvement.vitesse = 4;
+        scriptGoto.StopDialogueWithDemon1();
+    }
+
+    public void DeactivateInterract(){        
+        mouvement.vitesse = 0;
+        scriptGoto.DialogueWithDemon1();
     }
 
     void OnTriggerExit2D(Collider2D other)
