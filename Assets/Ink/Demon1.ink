@@ -14,6 +14,10 @@
                     I am a minotaur, I'm supposed to be cruel and barbaric ! Do you want some camomille tea?
                     ****** I understand but why did you summon me ?
                         You are the worst shrink in the world, you make all your clients miserable. You're my last resort to find my inner rage.
+                            ******* Why would I help you ?
+                                I will put a good review on MyOccultTherapist.com
+                                    ******** Great ! Let's start then !
+                                        Thank you Doc.
                         -> choices
  -> DONE
 
