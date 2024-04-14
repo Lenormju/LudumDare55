@@ -38,6 +38,7 @@ public class interract : MonoBehaviour
             string message = inter_object.GetComponent<InterractEffect>().get_message();
             Debug.Log(message);
             DialogInterract.GetComponent<SetDialog>().SetDialogMessage(message);
+            objectRendererObject.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
          }
          else if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) ) && is_parler_ok)
          {
@@ -58,13 +59,25 @@ public class interract : MonoBehaviour
                 obj.GetComponent<Outline>().enabled = false;
             }
             to_outline = currentObj[currentObj.Count-1];
-            to_outline.GetComponent<Outline>().enabled = true;
+            to_outline.GetComponent<Outline>().enabled = false;
 
             objectRendererObject.enabled = true;
-            objectRendererDemon.enabled = false;
+            
             is_inter_ok = true;
             is_parler_ok = false;
             inter_object = currentObj[currentObj.Count-1];
+            
+            if (inter_object.GetComponent<InterractEffect>().first_interract())
+            {
+                objectRendererObject.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+            }
+            else
+            {
+                objectRendererObject.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
+            }
+
+            objectRendererDemon.enabled = false;
+
         }
         if (other.CompareTag("Demon"))
         {
