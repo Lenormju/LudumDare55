@@ -20,19 +20,11 @@ public class MOTScript : MonoBehaviour
     {
         if(Globals.ResultDemons != null){
             for (int i = 0; i < Globals.ResultDemons.Count; i++)  {
-                // Get Result
                 var result = Globals.ResultDemons[i];
-                Debug.Log($"adding review {result}");
-                // Get review
                 reviews[i].SetActive(true);
-                // Name
                 reviewsNames[i].text = result.Demon;
-                // Description
                 reviewsDescriptions[i].text = result.Review;
-                // Note
                 reviewsNotes[i].sprite = notesSprites[result.Rate -1];
-                // Avatar
-                reviewsAvatars[i].sprite = result.Image;
             }
            
         }
