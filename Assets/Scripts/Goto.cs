@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Goto : MonoBehaviour
 {
+
+    public AudioSource ouchSound;
+    public void touchCactus() {
+        ouchSound.Play();
+    }
+
     bool diplomaOnce = false;
      public void interactWithDiploma() {
         if (!diplomaOnce)
