@@ -42,14 +42,14 @@ Bouuuh !
                         ******* ...
                         Mi nyam a French engineer one time, it taste sweet
                             ******** I think I should go
-                            No run weh, mi belly a grumble now. # result:demon_2:5:Mi always hanker afta food. Him look nyam-able
+                            No run weh, mi belly a grumble now. # result:Mona:5:Mi always hanker afta food. Him look nyam-able
                             ~ run_away = "RUN AWAY"
                                    ********* [{run_away}]
                                     -> DONE
 
         *** Eating less protein is a great way to lose weight
             Yuh waan follow mi diet ?
-            **** Yes, I think you could make a fortune with it # result:demon_2:1:Mi get thin an' rich, but mi still feel miserable
+            **** Yes, I think you could make a fortune with it # result:Mona:1:Mi get thin an' rich, but mi still feel miserable
                ***** [{run_away}]
                     -> DONE
 
@@ -61,7 +61,7 @@ Bouuuh !
             Nah, not really, but mi can cook yuh someting
                 ***** I would kill for some chicken
                 Now dat yuh mention it, it sound like a good idea.
-                    # result:demon_2:3:Him get mi high fi solve mi problems, pretty solid
+                    # result:Mona:3:Him get mi high fi solve mi problems, pretty solid
                     ****** [{run_away}]
                         -> DONE
 
@@ -72,7 +72,7 @@ Bouuuh !
     Yeah man, yuh right
         *** (diet) Eating less protein is a great way to lose weight
                 Yuh waan follow mi diet ?
-                **** Yes, I think you could make a fortume with it # result:demon_2:1:Mi get thin an' rich, but mi still feel miserable
+                **** Yes, I think you could make a fortume with it # result:Mona:1:Mi get thin an' rich, but mi still feel miserable
                    ***** [{run_away}]
                         -> DONE
     ** Humans kill so many innocent animals
@@ -82,7 +82,7 @@ Bouuuh !
                 **** ...
                 Mi nyam a French engineer one time, it taste sweet
                     ***** I think I should go
-                    No run weh, mi belly a grumble now.  # result:demon_2:5:Mi always hanker afta food. Him look nyam-able 
+                    No run weh, mi belly a grumble now.  # result:Mona:5:Mi always hanker afta food. Him look nyam-able 
                     ~ run_away = "RUN AWAY"
                         ****** [{run_away}]
                             -> DONE
@@ -98,13 +98,13 @@ Bouuuh !
              ***** Talk to your father
              Do I really have to ?
                 ****** It will help you to overcome your problems.
-                 I am afraid you are right #result:demon_2:2: I had a meaningful talk with my family to overcome my issues. This shrink make me puke.
+                 I am afraid you are right #result:Mona:2: I had a meaningful talk with my family to overcome my issues. This shrink make me puke.
                     ******* [{run_away}]
                         -> DONE
              ***** Steal his food again
              No, I couldn't.... I shouldn't ....
                  ****** Go for it
-                 It's true that I miss my parents cooking. Thanks doc ! #result:demon_2:4: I moved back with my parents and gained a hundred pounds, my dad is miserable. Would summon again !
+                 It's true that I miss my parents cooking. Thanks doc ! #result:Mona:4: I moved back with my parents and gained a hundred pounds, my dad is miserable. Would summon again !
                      ******* [{run_away}]
                         -> DONE
 
