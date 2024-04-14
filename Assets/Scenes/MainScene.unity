@@ -1371,6 +1371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a030cbc1e47538943baa9d02d58ff3bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MOTAppButton: {fileID: 0}
   ouchSound: {fileID: 0}
   miaouSound: {fileID: 0}
   vortexAnimator: {fileID: 812706179}
@@ -1396,7 +1397,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &837694677
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2870,6 +2871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a030cbc1e47538943baa9d02d58ff3bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MOTAppButton: {fileID: 837694676}
   ouchSound: {fileID: 106493668}
   miaouSound: {fileID: 1377631260}
   vortexAnimator: {fileID: 812706179}
@@ -3100,6 +3102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a030cbc1e47538943baa9d02d58ff3bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MOTAppButton: {fileID: 0}
   ouchSound: {fileID: 0}
   miaouSound: {fileID: 0}
   vortexAnimator: {fileID: 812706179}

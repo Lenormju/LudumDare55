@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Goto : MonoBehaviour
 {
+    public GameObject MOTAppButton;
+    public void Start() {
+        if ((MOTAppButton != null) && diplomaOnce)
+        {
+            MOTAppButton.SetActive(true);
+        }
+    }
 
     public AudioSource ouchSound;
     public void touchCactus() {
