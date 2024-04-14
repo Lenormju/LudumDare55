@@ -37,7 +37,7 @@ public class interract : MonoBehaviour
             DialogInterract.GetComponent<SetDialog>().SetDialogMessage(message);
             objectRendererObject.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
          }
-         else if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) ) && is_parler_ok)
+         else if ((Input.GetKeyDown(KeyCode.E) || (Input.GetKeyDown(KeyCode.Space)) || Input.GetMouseButton(0)) && is_parler_ok)
          {
             mouvement.vitesse = 0;
             is_inter_ok = false;
