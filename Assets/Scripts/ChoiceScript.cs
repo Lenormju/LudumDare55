@@ -20,7 +20,7 @@ public class ChoiceScript : MonoBehaviour
             Globals.InkStory.ChooseChoiceIndex(index);
             Globals.InkStory.Continue();
             
-            if(Globals.ResultDemons.Count > 0){
+            if(Globals.IsCurrentStoryEnding){
                 scriptGoTo.startDevortexisation();
                 return;
             }
