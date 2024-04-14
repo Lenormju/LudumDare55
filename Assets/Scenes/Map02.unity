@@ -1911,7 +1911,6 @@ MonoBehaviour:
   ouchSound: {fileID: 0}
   miaouSound: {fileID: 0}
   vortexAnimator: {fileID: 2096097948}
-  vortex2Animator: {fileID: 0}
   MOTApp: {fileID: 0}
   Demon1DialogueOverlay: {fileID: 1927674399}
 --- !u!4 &496109490
@@ -4711,7 +4710,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d20703dd63956a74eb59c67750625727, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4ae5f7b749fd6ce468622aa280432401, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -5562,7 +5561,6 @@ MonoBehaviour:
   ouchSound: {fileID: 0}
   miaouSound: {fileID: 0}
   vortexAnimator: {fileID: 2096097948}
-  vortex2Animator: {fileID: 0}
   MOTApp: {fileID: 0}
   Demon1DialogueOverlay: {fileID: 0}
 --- !u!222 &2096097947

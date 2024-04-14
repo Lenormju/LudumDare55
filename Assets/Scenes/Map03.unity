@@ -4390,7 +4390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97ddc6c0fb3f8fb47a5e1ea2aa696816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJson: {fileID: 4900000, guid: 393f6017144dfe94db9e350f2a7c13ba, type: 3}
+  inkJson: {fileID: 4900000, guid: 598dac56bb2be0e4396352cf1570b390, type: 3}
   displayText: {fileID: 1125391901}
   interraction: {fileID: 107699376}
 --- !u!224 &1361409838
@@ -5133,7 +5133,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d20703dd63956a74eb59c67750625727, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a477a0ad8390183419b4f689c9a02d82, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
