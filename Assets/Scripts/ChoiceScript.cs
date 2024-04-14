@@ -11,6 +11,7 @@ public class ChoiceScript : MonoBehaviour
     public Button DisplayText;
     public Sprite angrySprite;
     public Image happyImage;
+    public interract interraction;
 
     public void OnButtonClick(){
         if (Globals.InkStory.currentChoices.Count > 0){
@@ -25,6 +26,6 @@ public class ChoiceScript : MonoBehaviour
     }
 
     public void GoBack(){
-        Globals.SavedState = Globals.InkStory.state.ToJson();
+        interraction.ActivateInterract();
     }
 }

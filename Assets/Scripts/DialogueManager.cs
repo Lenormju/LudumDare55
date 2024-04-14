@@ -8,19 +8,21 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 {
     public TextAsset inkJson;
-
     public Button displayText;
+    public interract interraction;
+
+
     // Start is called before the first frame update
     void Start()
     {
         Globals.InkStory = new Story(inkJson.text);
         Globals.InkStory.ChoosePathString("intro");
         displayText.onClick.Invoke();
+        interraction.DeactivateInterract();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 }
