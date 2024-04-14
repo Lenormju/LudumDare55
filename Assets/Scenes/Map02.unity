@@ -620,6 +620,7 @@ MonoBehaviour:
   angrySprite: {fileID: 21300000, guid: 43205910efc29ee4d9469806f52d3fe4, type: 3}
   happyImage: {fileID: 1341753617}
   interraction: {fileID: 0}
+  scriptGoTo: {fileID: 0}
 --- !u!114 &192451018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -889,8 +890,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253706163}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11, y: -0.07, z: -0.5}
-  m_LocalScale: {x: 1, y: 15, z: 1}
+  m_LocalPosition: {x: -13.74, y: -0.07, z: -0.5}
+  m_LocalScale: {x: 6, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1401,7 +1402,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a030cbc1e47538943baa9d02d58ff3bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ouchSound: {fileID: 0}
   vortexAnimator: {fileID: 0}
+  vortex2Animator: {fileID: 0}
   MOTApp: {fileID: 0}
   Demon1DialogueOverlay: {fileID: 1030525646}
 --- !u!4 &496109490
@@ -1506,7 +1509,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2251,7 +2254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: message
-      value: A sea shepard flag
+      value: A sea sheperd flag, they assault fishing ships
       objectReference: {fileID: 0}
     - target: {fileID: 8546087012110214572, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2325,6 +2328,7 @@ MonoBehaviour:
   angrySprite: {fileID: 0}
   happyImage: {fileID: 0}
   interraction: {fileID: 0}
+  scriptGoTo: {fileID: 0}
 --- !u!114 &837985289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2573,6 +2577,7 @@ MonoBehaviour:
   - {fileID: 979575559}
   angrySprite: {fileID: 21300000, guid: 43205910efc29ee4d9469806f52d3fe4, type: 3}
   happyImage: {fileID: 1341753617}
+  scriptGoTo: {fileID: 0}
 --- !u!1 &857960549
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,6 +2636,7 @@ MonoBehaviour:
   angrySprite: {fileID: 21300000, guid: 43205910efc29ee4d9469806f52d3fe4, type: 3}
   happyImage: {fileID: 1341753617}
   interraction: {fileID: 0}
+  scriptGoTo: {fileID: 0}
 --- !u!114 &857960552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2783,6 +2789,7 @@ MonoBehaviour:
   angrySprite: {fileID: 21300000, guid: 43205910efc29ee4d9469806f52d3fe4, type: 3}
   happyImage: {fileID: 1341753617}
   interraction: {fileID: 0}
+  scriptGoTo: {fileID: 0}
 --- !u!114 &979575559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4616,7 +4623,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6561501569329199844, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: message
-      value: A very well maintened garden.
+      value: 'A desolate garden, the vegetables look terrible '
       objectReference: {fileID: 0}
     - target: {fileID: 8546087012110214572, guid: fe4cc884b1cd9224882dd872d457b34b, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4658,8 +4665,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943354530}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.25, y: -5, z: -0.5}
-  m_LocalScale: {x: 1.1357266, y: 25, z: 1}
+  m_LocalPosition: {x: 0.25, y: -7.46, z: -0.5}
+  m_LocalScale: {x: 6, y: 25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5015,8 +5022,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113025390}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.19, y: 5, z: -0.5}
-  m_LocalScale: {x: 1.1357266, y: 25, z: 1}
+  m_LocalPosition: {x: -0.19, y: 7.41, z: -0.5}
+  m_LocalScale: {x: 6, y: 25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5126,8 +5133,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117967234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11, y: -0.06, z: -0.5}
-  m_LocalScale: {x: 0.9096001, y: 15, z: 1}
+  m_LocalPosition: {x: 13.46, y: -0.06, z: -0.5}
+  m_LocalScale: {x: 6, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

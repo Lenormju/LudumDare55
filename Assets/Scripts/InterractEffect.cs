@@ -6,6 +6,7 @@ public class InterractEffect : MonoBehaviour
 {
     public string message;
     bool already_interacted = false;
+    public GameObject ink_to_enhance;
 
     // Start is called before the first frame update
     void Start()

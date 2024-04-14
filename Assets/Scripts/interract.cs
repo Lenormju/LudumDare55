@@ -13,7 +13,6 @@ public class interract : MonoBehaviour
 
     public GameObject inter_object;
     public GameObject inter_demon;
-
     private GameObject to_outline;
 
     public int count_object_close = 0;
