@@ -4,9 +4,7 @@ VAR weed = false
 VAR potager = false
 VAR run_away = "Leave"
 
-
 -> intro
-
 
 === intro ===
 Bouuuh !
