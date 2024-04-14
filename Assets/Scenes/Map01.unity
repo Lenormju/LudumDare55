@@ -312,7 +312,9 @@ MonoBehaviour:
   inter_demon: {fileID: 1125710531}
   count_object_close: 0
   currentObj: []
+  CanvaDemonDialogue: {fileID: 1030525646}
   DialogInterract: {fileID: 226157702}
+  mouvement: {fileID: 33086309}
   scriptGoto: {fileID: 496109489}
   displayText: {fileID: 844266767}
 --- !u!70 &107699377
@@ -471,7 +473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31.000107, y: -280}
+  m_AnchoredPosition: {x: 11.000109, y: -280}
   m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &192451017
@@ -490,6 +492,8 @@ MonoBehaviour:
   DisplayText: {fileID: 844266767}
   angrySprite: {fileID: 21300000, guid: 43205910efc29ee4d9469806f52d3fe4, type: 3}
   happyImage: {fileID: 1341753617}
+  mvt: {fileID: 0}
+  interraction: {fileID: 0}
 --- !u!114 &192451018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1923,7 +1927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 404, y: -412}
+  m_AnchoredPosition: {x: 384, y: -412}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &837985288
@@ -1942,6 +1946,8 @@ MonoBehaviour:
   DisplayText: {fileID: 844266767}
   angrySprite: {fileID: 0}
   happyImage: {fileID: 0}
+  mvt: {fileID: 33086309}
+  interraction: {fileID: 107699376}
 --- !u!114 &837985289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1988,7 +1994,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 837985288}
         m_TargetAssemblyTypeName: ChoiceScript, Assembly-CSharp
-        m_MethodName: OnButtonClick
+        m_MethodName: GoBack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2075,7 +2081,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 385, y: 115}
+  m_AnchoredPosition: {x: 365, y: 115}
   m_SizeDelta: {x: 1000, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &844266767
@@ -2228,7 +2234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 405, y: -280}
+  m_AnchoredPosition: {x: 385, y: -280}
   m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &857960551
@@ -2247,6 +2253,8 @@ MonoBehaviour:
   DisplayText: {fileID: 844266767}
   angrySprite: {fileID: 21300000, guid: 43205910efc29ee4d9469806f52d3fe4, type: 3}
   happyImage: {fileID: 1341753617}
+  mvt: {fileID: 0}
+  interraction: {fileID: 0}
 --- !u!114 &857960552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2379,7 +2387,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 780.0001, y: -280}
+  m_AnchoredPosition: {x: 760.0001, y: -280}
   m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &979575558
@@ -2398,6 +2406,8 @@ MonoBehaviour:
   DisplayText: {fileID: 844266767}
   angrySprite: {fileID: 21300000, guid: 43205910efc29ee4d9469806f52d3fe4, type: 3}
   happyImage: {fileID: 1341753617}
+  mvt: {fileID: 0}
+  interraction: {fileID: 0}
 --- !u!114 &979575559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3070,7 +3080,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -537.9999, y: -0.9999771}
+  m_AnchoredPosition: {x: -557.9999, y: -0.9999771}
   m_SizeDelta: {x: 800, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1341753617
@@ -3142,6 +3152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inkJson: {fileID: 4900000, guid: 7430e6c6431c68d418145bcba6b0343a, type: 3}
   displayText: {fileID: 844266767}
+  mvt: {fileID: 33086309}
+  interraction: {fileID: 107699376}
 --- !u!224 &1361409838
 RectTransform:
   m_ObjectHideFlags: 0

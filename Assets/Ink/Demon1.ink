@@ -14,6 +14,10 @@ Bouuuh !
                     I am a minotaur, I'm supposed to be cruel and barbaric ! Do you want some camomille tea?
                     ****** I understand but why did you summon me ?
                         You are the worst shrink in the world, you make all your clients miserable. You're my last resort to find my inner rage.
+                            ******* Why would I help you ?
+                                I will put a good review on MyOccultTherapist.com
+                                    ******** Great ! Let's start then !
+                                        Thank you Doc.
                         -> choices
  -> DONE
 
@@ -71,7 +75,7 @@ Let's go !
     ** You are a farm animal in a hawaian shirt
         A farm animal ?!? You think I look like a bull ?
         ***(insult) You look more like a pig
-        YOU BETTER LEAVE BEFORE I IMPALE YOU ! YOUR GUTS WILL DECORATE MY HORNS ! 
+        YOU BETTER LEAVE BEFORE I IMPALE YOU ! YOUR GUTS WILL DECORATE MY HORNS !
         # result:demon_1:4:I believe in myself again, I am a wild beast.
             
         *** You are a bull !
@@ -83,7 +87,7 @@ Let's go !
     ** (acceptance) Without this outfit, you could like quite scary
         Really ?
         *** Yes, your face is terrifying, only your outfit is ridiculous.
-            You are right, I shoudl go back to my roots, I'll never wear this shirt again  # result:demon_1:3:I was arrested for public exposure,I'm thriving in jail
+            You are right, I should go back to my roots, I'll never wear this shirt again  # result:demon_1:3:I was arrested for public exposure,I'm thriving in jail
     -> end_choices
 
 - (end_choices)
