@@ -11,6 +11,10 @@ public class Goto : MonoBehaviour
         ouchSound.Play();
     }
 
+    public void gotoMainScene() {
+        SceneManager.LoadScene("MainScene");
+    }
+
     bool diplomaOnce = false;
      public void interactWithDiploma() {
         if (!diplomaOnce)
