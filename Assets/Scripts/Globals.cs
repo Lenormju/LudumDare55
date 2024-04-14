@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class Globals : MonoBehaviour
 {
     public static Story InkStory { get; set; }
-    public static bool IsCurrentStoryEnding { get; set; }
     public static string SavedState {get;set;}
     public static List<Result> ResultDemons { get; set; } = new List<Result>();
 
@@ -35,8 +34,8 @@ public class Globals : MonoBehaviour
             if(note >= 4){
                 happyImage.sprite = angrySprite;
             }
-            ResultDemons.Add(new Globals.Result(split[1],note,split[3], happyImage.sprite));
-            IsCurrentStoryEnding = true;
+            Globals.ResultDemons.Add(new Globals.Result(split[1],note,split[3], happyImage.sprite));
+
             return true;
         }
         return false;

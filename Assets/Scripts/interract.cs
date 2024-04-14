@@ -19,6 +19,7 @@ public class interract : MonoBehaviour
     public int count_object_close = 0;
 
     public List<GameObject> currentObj;
+    public GameObject CanvaDemonDialogue;
     public GameObject DialogInterract;
     public mvt mouvement;
     // Start is called before the first frame update
