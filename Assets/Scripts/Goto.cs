@@ -13,6 +13,10 @@ public class Goto : MonoBehaviour
         }
     }
 
+    public void gotoCredits() {
+        SceneManager.LoadScene("Credits");
+    }
+
     public AudioSource ouchSound;
     public void touchCactus() {
         ouchSound.Play();
